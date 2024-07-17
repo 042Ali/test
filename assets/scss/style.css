@@ -105,10 +105,15 @@ button.large {
     width: 318px;
   }
 }
+.input {
+  border-radius: 10px;
+  height: 900px;
+}
+
 #header-container {
   display: flex;
   justify-content: space-between;
-  padding: 40px 80px;
+  padding: 40px 40px;
   background-color: #8aa8a1;
   align-items: center;
 }
@@ -250,6 +255,91 @@ nav.mobile-menu .close-btn {
 main {
   display: flex;
   height: calc(100vh - 120px);
+}
+
+.contact {
+  align-self: center;
+  margin-inline: auto;
+  border: 3px solid;
+  border-radius: 12px;
+  background-color: #888;
+  height: 400px;
+  padding: auto;
+}
+.contact h1 {
+  height: 80px;
+}
+.contact .name {
+  height: 50px;
+}
+.contact .phone {
+  height: 50px;
+}
+.contact .email {
+  height: 50px;
+}
+.contact .elaqe {
+  border-radius: 12px;
+}
+
+.btn {
+  background-color: black;
+}
+
+.LOGIN--1 {
+  margin-left: 650px;
+  align-items: center;
+  margin-top: 200px;
+}
+.LOGIN--1 h1 {
+  height: 40px;
+}
+.LOGIN--1 .input {
+  height: 30px;
+  margin-left: -50px;
+  width: 200px;
+  background-color: rgb(200, 203, 200);
+}
+.LOGIN--1 #Login {
+  height: 50px;
+}
+.LOGIN--1 #password {
+  height: 50px;
+}
+.LOGIN--1 .btn {
+  background-color: #fff;
+  border: 1px solid;
+  height: 30px;
+  width: 60px;
+  margin-left: -45px;
+}
+
+.sign {
+  margin-left: 650px;
+  align-items: center;
+  margin-top: 200px;
+}
+.sign h1 {
+  height: 40px;
+}
+.sign .input {
+  height: 30px;
+  margin-left: -50px;
+  width: 200px;
+  background-color: rgb(200, 203, 200);
+}
+.sign #up {
+  height: 50px;
+}
+.sign #password {
+  height: 50px;
+}
+.sign .btn {
+  background-color: #fff;
+  border: 1px solid;
+  height: 30px;
+  width: 60px;
+  margin-left: -45px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,7 +1,6 @@
 {
   "name": "mce-4",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "scss:build": "sass ./assets/scss/style.scss:./assets/scss/style.css",
@@ -9,5 +8,6 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": ""
 }

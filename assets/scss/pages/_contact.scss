@@ -1,0 +1,32 @@
+.contact {
+  align-self: center;
+  margin-inline: auto;
+  border: 3px solid;
+  border-radius: 12px;
+  background-color: #888;
+  height: 400px;
+  padding: auto;
+
+  h1 {
+    height: 80px;
+  }
+
+  .name {
+    height: 50px;
+  }
+
+  .phone {
+    height: 50px;
+  }
+
+  .email {
+    height: 50px;
+  }
+
+  .elaqe {
+    border-radius: 12px;
+  }
+}
+.btn {
+  background-color: black;
+}

@@ -9,6 +9,7 @@
 // components
 @import "./components/buttons";
 @import "./components/card";
+@import "./components/input";
 
 // layout
 @import "./layout/header";
@@ -16,22 +17,8 @@
 @import "./layout/main-section";
 @import "./layout/menu";
 
-
 // pages
 @import "./pages/home";
-
-// @use "./utils/variables";
-// @use "./utils/mixins";
-
-// @use "./base/reset";
-// @use "./base/typography";
-
-// @use "./components/buttons";
-
-// @use "./layout/header";
-// @use "./layout/main-section";
-// @use "./layout/sidebar";
-
-// @use "./pages/home";
-
-// mixin, use vs import, extend, include, forward
+@import "./pages/contact";
+@import "./pages/Sign-in";
+@import "./pages/sign-up";
