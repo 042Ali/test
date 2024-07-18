@@ -16,6 +16,7 @@ menu {
 
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: rgba(57, 80, 24, 0.3568627451);
 }
 
 button {
@@ -282,8 +283,9 @@ main {
   border-radius: 12px;
 }
 
-.btn {
-  background-color: black;
+.H11 {
+  border: 1px solid;
+  width: 100px;
 }
 
 .LOGIN--1 {
